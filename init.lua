@@ -115,6 +115,9 @@ vim.opt.showmode = false
 --  See `:help 'clipboard'`
 vim.opt.clipboard = 'unnamedplus'
 
+-- Conceal level
+vim.opt.conceallevel = 2
+
 -- Enable break indent
 vim.opt.breakindent = true
 
