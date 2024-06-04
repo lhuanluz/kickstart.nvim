@@ -107,6 +107,9 @@ vim.opt.relativenumber = true
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.opt.mouse = 'a'
 
+-- Enable column marker for 80 characters
+vim.opt.colorcolumn = '80'
+
 -- Don't show the mode, since it's already in status line
 vim.opt.showmode = false
 
