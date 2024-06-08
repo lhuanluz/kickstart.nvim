@@ -8,3 +8,5 @@ local nmap = function(keys, func, desc)
 end
 -- Keymap for toggling the tree - Neo-Tree
 keymap('n', '<C-n>', ':Neotree toggle<CR>', { desc = 'Toggle neotree' })
+-- keymap for   code_actions
+keymap('n', '<leader>ca', ':lua vim.lsp.buf.code_action()<CR>', { desc = 'Code action' })
