@@ -37,7 +37,7 @@ return {
       -- Trigger completion at 2 chars.
       min_chars = 2,
     },
-    new_notes_location = 'current_dir',
+    new_notes_location = 'notes_subdir',
     picker = {
       -- Set your preferred picker. Can be one of 'telescope.nvim', 'fzf-lua', or 'mini.pick'.
       name = 'telescope.nvim',
